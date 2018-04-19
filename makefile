@@ -1,4 +1,4 @@
-sol.png : Grafica.py step.txt gauss.txt
+escalon.png : Grafica.py step.txt gauss.txt
 	python3 Grafica.py
 step.txt : step
 	./step>step.txt
