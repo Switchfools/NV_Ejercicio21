@@ -4,7 +4,7 @@ step.txt : step
 	./step>step.txt
 step :EcuaciondeOnda.cpp
 	c++ EcuaciondeOnda.cpp -o step
-step.txt : gauss
+gauss.txt : gauss
 	./gauss>gauss.txt
 gauss :Gaussiana.cpp
 	c++ Gaussiana.cpp -o gauss
